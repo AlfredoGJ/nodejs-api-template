@@ -10,7 +10,7 @@ const taskRouter = require('./src/tasks/router');
 router.use(middleware.doSomethingInteresting);
 
 // Wire up routers
-router.use('/health', healthRouter);
+router.use('/orders', healthRouter);
 router.use('/tasks', taskRouter);
 
 // Wire up error-handling middleware
